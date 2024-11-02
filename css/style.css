@@ -1,0 +1,689 @@
+
+@font-face {
+    font-family: Oxanium ;
+    src: url(../fonts/Oxanium-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: KanitBold ;
+    src: url(../fonts/Kanit-Bold.ttf);
+}
+@font-face {
+    font-family: KanitRegular ;
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family: KanitMedium ;
+    src: url(../fonts/Kanit-Medium.ttf);
+}
+@font-face {
+    font-family: KanitSemi ;
+    src: url(../fonts/Kanit-SemiBold.ttf);
+}
+@font-face {
+    font-family: LatoBold ;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: LatoRegular ;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: EndocodeSans ;
+    src: url(../fonts/EncodeSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/MerriweatherSans-VariableFont_wght.ttf);
+}
+body{
+    margin: 0px;
+}
+.navbar{
+    padding-right: 15px; padding-left: 15px; background-color: rgb(240, 224, 201);
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between; 
+}
+li{
+    list-style: none; display: inline-block; 
+}
+.navdiv li a{
+    text-decoration: none; 
+    font-size: 16px; 
+    margin-right: 40px; 
+    color: black;
+    font-family: KanitMedium;
+}
+.logo{
+    font-size: 19px; margin-left: 25px; font-family: Oxanium; font-weight: 900px;
+}
+.titlesection img{
+    width: 300px; 
+    margin-top: 45px;
+    float: right; 
+    margin-left: 50px;  
+    border: 2px solid black;
+}
+.titlesection h1{
+    font-family: EndocodeSans;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.titlesection p{
+    font-family: LatoRegular;
+    
+}
+.titlesection{
+    display: inline-block; margin-top: 60px; width: 850px; margin-left: 350px; margin-bottom: 40px; 
+}
+.titlebackground{
+    background-color: rgb(255,221,228,255);
+    border: 2px solid black;
+}
+.titlesection button{
+    background-color: rgb(255, 134, 121); color: rgb(0, 0, 0); border: none; padding: 10px; margin-bottom: 20px; width: 100px; height: 40px; margin-left: 170px; font-family: KanitBold; border: 1px rgb(0, 0, 0) solid; box-shadow: 1px 2px 0px 0;
+}
+.innercon img{
+    max-width: 100%;
+    display: block ;    
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.innercon h4{
+    font-size: 18px;
+    border: 2px solid black;
+    background-color: rgb(168, 219, 216);
+    padding: 5px;
+    font-weight: 600;
+    font-family: EndocodeSans;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.innercon p{
+    font-size: 13px;
+    font-family: LatoRegular;
+    font-weight: 550;
+    background-color: rgb(214, 181, 187);
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 7px;
+    box-shadow: 2px 3px 0px 0;
+}
+.innercon{
+    width: 800px;
+    margin: 20px 0px 10px 200px; 
+    display: grid;
+    grid-template-columns:repeat(4, 250px);
+    gap: 3rem;
+}
+.box{
+    padding: 10px;
+    text-align: center;
+    
+}
+.outercon h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    padding-top: 80px;
+    font-family: LatoBold;
+    font-weight: 1000;
+}
+.outercon span{
+    background-color:rgb(177, 210, 135);
+}
+.outercon{
+    background-color: rgb(253, 244, 224);
+    padding-bottom: 20px;
+}
+.inside img{
+    width: 350px;
+    float: left;
+    border: 2px solid;
+}
+.inside{
+    width: 800px;
+    margin-left: 300px;
+}
+
+.text{
+    margin-left: 500px;
+    text-align: left;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+.text h4{
+    font-size: 17px;
+    font-family: LatoBold;
+}
+.text p{
+    font-family: LatoRegular;
+}
+.outside{
+    background-color: rgb(246, 216, 124);
+    padding-top: 80px;
+    height: 450px;
+    border: 2px solid;
+}
+.textbackground{
+    background-color: rgb(224, 189, 90);
+    width: 900px;
+    height: 352px;
+}
+
+.cattext img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 600px;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 4px 3px 0px 0;
+}
+.cattext{
+    display: flex; justify-content: space-around; margin-top: 20px;
+}
+.cattext h1{
+    margin-left: 600px;
+    font-family: EndocodeSans;
+}
+
+.buttext p{
+    text-align: center;
+    font-family: KanitRegular;
+}
+.buttext{
+    width: 500px;
+    margin-left: 495px;
+}
+.buttext button{
+    margin-left: 200px; margin-top: 20px;
+    background-color: rgb(197, 164, 237); color: rgb(0, 0, 0); border: none; padding: 10px; width: 100px; height: 40px;  font-family: KanitBold; border: 1px rgb(0, 0, 0) solid; box-shadow: 1px 2px 0px 0
+}
+.final{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.logodiv{
+    width: 300px;
+    color: white;
+    display: inline-block;
+}
+.logodiv p{
+    font-size: 13px;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    height: 200px;
+}
+.logodiv h5{
+    margin-bottom: 0px;
+}
+
+.divnav{
+    display: flex; justify-content: space-between;
+    color: white;
+}
+.divnav li a{
+    text-decoration: none; font-size: 13px; margin-right: 40px; color: rgb(255, 255, 255); 
+}
+
+.imgtext img{
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 5px 0px 0;
+}
+.imgtext h1{
+    font-size: 50px;
+    font-family: EndocodeSans;
+}
+.imgtext p{
+    font-family: KanitRegular;
+}
+
+.side{
+    width: 25%;
+    float: right;
+    padding-right: 70px;   
+   
+}
+
+.hifi img{
+    width: 120px;
+    float: left;
+    border: 2px solid black;
+    box-shadow: 8px 5px 0px 0;
+    border-radius: 15px;
+}
+.hifi h3 {
+    margin-left: 140px;
+    font-family: LatoBold;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(128, 190, 202);  
+}
+.hifi p {
+    margin-left: 140px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: rgb(69, 181, 203);
+    font-family: LatoRegular;
+    
+}
+.side h1{
+    font-family: EndocodeSans;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.hifi{
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.imgtext{
+    margin-left: 70px;
+    width: 700px;
+    padding-top: 20px;
+}
+
+.imgtext button{
+    margin-left: 200px; margin-top: 20px;
+    background-color: rgb(104, 203, 146); color: rgb(0, 0, 0); border: none; padding: 15px; font-family: KanitBold; border: 1px rgb(0, 0, 0) solid; box-shadow: 1px 2px 0px 0 }
+
+
+.toppart{
+    background-color: rgb(206, 206, 206);
+    height: 1000px;
+    border: 2px solid black;
+
+}
+.featurein img{
+    width: 250px;
+    float: left;
+    border: 4px solid rgb(0, 0, 0);
+}
+.featurein{
+    width: 500px;
+    margin-left: 480px;
+    padding: 20px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-top: 3px;
+    padding-bottom: 50px;
+    border: 2px solid white;
+}
+.featurein p{
+    margin-left: 300px;
+    padding: 5px;
+    padding-bottom: 0px;
+    font-family: LatoBold;
+}
+.featurein button{
+    margin-left: 350px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px;
+    color: white;
+    font-family: KanitBold;
+    margin-top: -800px;   
+}
+.featurein h3{
+    font-family: Merriweather;
+    font-size: 20px;
+}
+.featurein span{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.featured{
+    text-align: center;
+    width: 600px;
+    margin-left: 450px;
+    color: white;
+}
+.featured h2{
+    font-size: 40px;
+    font-family: EndocodeSans;
+}
+.featured p{
+    font-family: KanitRegular;
+}
+.section1{
+    background-color: rgb(0, 0, 0);
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+.divimage{
+    background-color: brown;
+    height: 400px;
+    width: 50%;
+}
+.divimage img{
+    width: 100%;
+}
+.divtext{
+    background-color: rgb(48, 79, 101);
+    height: 400px;
+    width: 50%;
+    float: right;
+    color: white;
+    font-family: LatoRegular;
+}
+.condivs{
+    display: flex;
+}
+
+.play{
+    width: 400px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.play h2{
+    font-size: 30px;
+}
+.contactintro{
+    background-color: rgb(214, 192, 205);
+    height: 200px;
+    padding-top: 1px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+}
+.contactintro p{
+    width: 550px;
+    margin-left: 490px;
+    font-family: KanitRegular;
+}
+.contactintro h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: EndocodeSans;
+}
+
+.condiv img{
+    width: 500px;
+    float: right;
+    margin-right: 300px;
+}
+.contactinfo{
+    margin-left: 400px;
+    padding: 20px;
+    margin-top: px;
+}
+.condiv h2{
+    margin-left: 400px;
+    font-size: 30px;
+    font-family: LatoBold;
+}
+.contactinfo input{
+    width: 250px; height: 30px;
+    margin-top: 10px;
+}
+textarea{
+    width: 250px; height: 100px;
+}
+.contactinfo label{
+    font-family: KanitRegular;
+}
+
+.imagediv{
+    background-color: cadetblue;
+    width: 50%;
+    height: 400px;
+}
+.textdiv{
+    background-color: rgb(248, 228, 133);
+    width: 50%;
+    height: 400px;
+}
+.aboutcon{
+display: flex;
+border: 2px solid black;
+}
+.introtext{
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 95px;
+    padding-top: 50px;
+}
+.introtext p{
+    font-family: KanitRegular;
+}
+.introtext h1{
+    font-family: EndocodeSans;
+}
+.introtext button{
+    background-color: rgb(131, 203, 230);
+    border: none; 
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    margin-top: 5px;
+    font-family: KanitBold;
+    border: 2px solid black;
+    box-shadow: 1px 2px 0px 0;
+}
+.minipara{
+    border: 2px solid black;
+    display: flex; justify-content: space-around;
+    width: 900px;
+    height: 40px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    background-color: rgb(209, 116, 106);
+    margin-bottom: 20px;
+}
+.miniparasec{
+    background-color: rgb(234, 221, 196);
+    height: 95px;
+    padding: 1px;
+}
+
+.innercon2 img{
+    max-width: 100%;
+    display: block ;    
+    border: 2px solid black;
+    border-radius: 100px;
+    box-shadow: 3px 3px 0px 0;
+}
+.innercon2 h4{
+    font-size: 18px;
+    background-color: rgb(202, 118, 66);
+    font-family: EndocodeSans;
+    border: 2px solid black;
+}
+.innercon2 p{
+    font-size: 14px;
+    font-family: KanitRegular;
+}
+.innercon2{
+    width: 800px;
+    margin: 20px 0px 10px 300px; 
+    display: grid;
+    grid-template-columns:repeat(4, 200px);
+    gap: 3rem;
+}
+.box2{
+    padding: 10px;
+    text-align: center;
+}
+.outercon2 h2{
+    margin-left: 311px;
+    font-size: 30px;
+    font-family: LatoBold;
+}
+.outercon2{
+    margin-top: 10px;
+}
+.insidelounge{
+    background-color:  rgb(234, 221, 196);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.minipara2{
+    border: 2px solid black;
+    width: 750px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 370px;
+    padding-bottom: 30px;
+    background-color:  rgb(160, 155, 154)
+}
+.minipara2 p{
+    width: 600px;
+    margin-left: 70px;
+    font-family: LatoRegular;
+}
+.contactbutton{
+    font-family: KanitBold ; border: 1px solid black; box-shadow: 1px 2px 0px 0; background-color: rgb(186, 161, 158); color: rgb(0, 0, 0);  padding: 10px; margin-top: 10px;
+}
+.minipara2 h3{
+    font-family: LatoBold;
+}
+.minipara2 span{
+    background-color: rgb(111, 111, 111);
+}
+.minipara2sec{
+    background-color: rgb(196, 183, 170);
+    height: 250px;
+    padding: 1px;
+    border: 2px solid black;
+}
+
+.innercon3 img{
+    max-width: 100%;
+    display: block ;    
+    border: 2px solid black;
+}
+.innercon3{
+    padding-right: 30px;
+    margin: 0px 0px 10px 300px; 
+    display: grid;
+    grid-template-columns:repeat(2, 200px);
+    gap: 1rem;
+    float: left;
+   
+}
+.box3{
+    padding: 10px;
+    text-align: center;
+}
+.halloweencon p{
+   margin-right: 400px;
+   font-family: LatoRegular;
+   font-weight: 570;
+}
+.halloweencon h2{
+    font-size: 30px;
+    font-family: LatoBold;
+}
+.halloweencon{
+    padding-top: 50px;
+}
+.outercon3{
+    margin-top: 20px;
+}
+.sechalloween{
+    background-color: rgb(161, 110, 51);
+    height: 460px;
+    padding-top: 1px;
+}
+.introimage{
+    background-color: aquamarine;
+    height: 300px;
+    border: 2px solid black;
+}
+.friendsmain{
+    background-color: rgb(245, 242, 235);
+    padding: 1px;
+}
+.friendsintro{
+    width: 800px;
+    text-align: center;
+    margin-left: 350px;
+}
+.boxdiv{
+    background-color: rgb(227, 207, 186);
+    height: 80px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.friendsintro h1{
+    font-size: 40px;
+    font-family: EndocodeSans;
+}
+.friendsintro p{
+    font-family: KanitRegular;
+}
+.innercon4{
+    width: 800px;
+    margin: 60px 0px 10px 280px; 
+    display: grid;
+    grid-template-columns:repeat(4, 260px);
+    gap: 5rem;
+}
+.box4{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(205, 127, 143);
+    box-shadow: 1px 2px 0px 0;
+}
+
+.innercon4 h4{
+    font-size: 18px;
+    padding: 10px;
+    font-family: LatoBold;
+}
+.innercon4 p{
+    font-size: 14px;
+    font-family: KanitRegular;
+}
+.yo img{
+    width: 600px;
+    margin-left: 450px;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.container{
+    width: 800px;
+    margin: 80px 0px 10px 420px; 
+    display: grid;
+    grid-template-columns:repeat(2, 350px);
+    gap: 1rem;
+}
+.con1 img{
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 0px 0;
+}
+.articlediv h2{
+    text-align: center;
+    margin-top: 60px;
+    font-family: EndocodeSans;
+}
+.con1 h4{
+    font-family: LatoBold;
+    background-color: rgb(205, 127, 143);
+    border: 2px solid black;
+    padding: 5px;
+}
+.con1 p{
+    font-family: KanitRegular;
+}
